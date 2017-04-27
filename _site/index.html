@@ -10,7 +10,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A beautiful Jekyll theme for creating resume">
+    <meta name="description" content="Tsung-Ting, Wu's online CV'">
+    <meta name="keyword"  content="Tsung Wu, Guitar, Recording, Music">
+
     <link rel="shortcut icon" href="favicon.ico">  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
@@ -25,6 +27,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="/online-cv/assets/js/min/jquery-3.2.1.slim.min.js"></script>
 </head> 
 
 <body>
@@ -111,14 +114,14 @@
 </ul>
 </div><!--//interests-->
     <div class="interests-container container-block">
-<h2 class="container-block-title">Interests</h2>
-<ul class="list-unstyled interests-list">
-<li>Woodwork</li>
-<li>Biking</li>
-<li>Guitar</li>
-</ul>
-</div><!--//interests-->
- 
+    <h2 class="container-block-title">Interests</h2>
+    <ul class="list-unstyled interests-list">
+        <li>Guitar</li>
+        <li>Woodwork</li>
+        <li>Biking</li>
+    </ul>
+</div>
+<!--//interests--> 
 
 </div>
 <!--//sidebar-wrapper-->
@@ -150,8 +153,9 @@
         <!--//meta-->
         <div class="details">
             <ul style="padding-left: 15px;">
+                
                 <li>
-                     <p>於<strong>資策會資安所 資料分析組</strong><a href="#cloudorion" > CloudOrion</a> 及<a href="#secbuzzer" >Secbuzzer</a> 專案擔任後端API工程師及系統維運工程師，
+                     <p>於<strong>資策會資安所 資料分析組</strong> <a href="#cloudorion" > CloudOrion</a>(雲端資安威脅分析系統) 及<a href="#secbuzzer" >Secbuzzer</a>(機器感知弱點探析與威脅情資平台) 專案擔任後端API工程師及系統維運工程師，
                     負責後端REST API開發，間接Database以及Google API資料。</p>
 
                 </li>
@@ -191,7 +195,7 @@
 
             
             
-            <p style="text-align: right;"> [Pro tools, Digital Music]</p>
+            <p style="text-align: right;"> [Pro tools, Music Production]</p>
         </div>
         <!--//details-->
     </div>
@@ -290,11 +294,11 @@
     <div class="item" style="margin-bottom:10px;">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">Sincerely Music - Music Production Workshop</h3>
+                <h3 class="job-title">三十而立 - 全領域音樂製作工作坊</h3>
                 <div class="time">2016 April - 2016 June</div>
             </div>
             <!--//upper-row-->
-            <div class="company"> XUE XUE INSTITUTE, Taipei</div>
+            <div class="company">學學文創, Taipei</div>
         </div>
         <!--//meta-->
 
@@ -303,7 +307,7 @@
     <div class="item" style="margin-bottom:10px;">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">莊智淵 Jazz Guitar Class</h3>
+                <h3 class="job-title">莊智淵 爵士吉他課程</h3>
                 <div class="time">2016 - Present</div>
             </div>
             <!--//upper-row-->
@@ -343,7 +347,7 @@
     <div class="item" style="margin-bottom:10px;">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">Trainee </h3>
+                <h3 class="job-title">錄音室見習 </h3>
                 <div class="time">2013 July. - 2013 Aug.</div>
             </div>
             <!--//upper-row-->
@@ -360,6 +364,37 @@
 </section>
 <!--//section-->    
                 
+                <section class="section experiences-section">
+    <h2 class="section-title"><i class="fa fa-code"></i>CSIE Training</h2>
+
+    <div class="item" style="margin-bottom:10px;">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">保哥 Angular 2 開發實戰</h3>
+                <div class="time">2017 April 13</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"> 酷奇資訊有限公司, Taipei</div>
+        </div>
+        <!--//meta-->
+
+    </div>
+    <div class="item" style="margin-bottom:10px;">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Growth Hack 入門心法班</h3>
+                <div class="time">2016 Jan. 25</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"> xdite, Taipei</div>
+        </div>
+        <!--//meta-->
+
+    </div>
+
+</section>
+<!--//section-->    
+
                 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     
@@ -455,7 +490,7 @@
                     <div class="item">
                         <h3 class="level-title">Music Information Retrieval</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="77%">
+                            <div class="level-bar-inner" data-level="72%">
 
                             </div>                                      
                         </div><!--//level-bar-->                                 
@@ -511,7 +546,7 @@
         <div class="details">
             <ul style="padding-left: 15px;">
                 <li>
-                    Cooperated with 4 members using Spring MVC framework and angularJS to develop a monitoring system on cloud storage service(eg. Google Drive) - <a href="#cloudorion_en" > CloudOrion</a> 
+                    Cooperated with 3 members using Spring MVC framework and angularJS to develop a cyber threat analysis system on cloud storage service(eg. Google Drive) - <a href="#cloudorion_en" > CloudOrion</a> 
                 </li>
                 <li>
                     <p>Develop a Cyber Threat Intelligence platform, using FLASK to build REST API Server and Angular2 as Front-end framework - <a href="#secbuzzer_en" > Secbuzzer-cti</a> 
@@ -548,7 +583,7 @@
                 </li>
             </ul>
             
-            <p style="text-align: right;"> [Pro tools, Digital Music]</p>
+            <p style="text-align: right;"> [Pro tools, Music Production]</p>
         </div>
         <!--//details-->
     </div>
@@ -717,6 +752,38 @@
 </section>
 <!--//section-->    
                 
+                <section class="section experiences-section">
+    <h2 class="section-title"><i class="fa fa-code"></i>CSIE Training</h2>
+
+    <div class="item" style="margin-bottom:10px;">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Intro to Angular2</h3>
+                <div class="time">2017 April 13</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"> (保哥)酷奇資訊有限公司, Taipei</div>
+        </div>
+        <!--//meta-->
+
+    </div>
+    <div class="item" style="margin-bottom:10px;">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Intro to Growth Hack</h3>
+                <div class="time">2016 Jan. 25</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company"> xdite, Taipei</div>
+        </div>
+        <!--//meta-->
+
+    </div>
+
+</section>
+<!--//section-->    
+
+
                 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     
@@ -821,7 +888,7 @@
                     <div class="item">
                         <h3 class="level-title">Music Information Retrieval</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="77%">
+                            <div class="level-bar-inner" data-level="72%">
 
                             </div>                                      
                         </div><!--//level-bar-->                                 
@@ -858,34 +925,29 @@
             </div>
 
 <script type="text/javascript">
-    var $zh = document.querySelectorAll(".zh");
-    var $en = document.querySelectorAll(".en");
-    var $name = document.querySelector(".name");
+    
     function onLanChange(index){
         if(index == 0){
-            $zh.forEach(function(element) {
-                element.style.display= "block";
-            }, this);
-            // $zh.style.display = "block";
-
-            $en.forEach(function(element) {
-                element.style.display= "none";
-            }, this);
+            $('.en').hide()
+            $('.zh').show()
             // $en.style.display = "none";
-            $name.innerText = "吳宗庭 \n Tsung Wu"
+            $('.name').text("吳宗庭 \n Tsung Wu")
             
         }else{
-            $en.forEach(function(element) {
+            $('.zh').hide()
+            $('.en').show()
+            /*$en.forEach(function(element) {
                 element.style.display= "block";
             }, this);
 
             $zh.forEach(function(element) {
                 element.style.display= "none";
-            }, this);
+            }, this);*/
 
             // $en.style.display = "block";
             // $zh.style.display = "none";
-            $name.innerText = "Tsung-Ting, Wu"
+            $('.name').text("Tsung-Ting, Wu")
+
         }
     }
     onLanChange(1);
