@@ -12,6 +12,10 @@ keyword: "Tsung Wu, Guitar, Recording, Music"
 #style: styles-5
 #style: styles-6
 
+# Google Analytics
+ga_track_id: 'UA-98280725-1'            # Format: UA-xxxxxx-xx
+ga_domain: 'tsungtwu.github.io'
+
 
 #Profile information
 name: Tsung-Ting Wu
