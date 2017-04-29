@@ -3,7 +3,7 @@ title: Music Resume | Tsung Wu
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
 description: "Tsung-Ting, Wu's online CV'"
-keyword: "Tsung Wu, Guitar, Recording, Music"
+keyword: "Tsung Wu, Guitar, Recording, Music, 吳宗庭, Tsung-Ting Wu"
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
