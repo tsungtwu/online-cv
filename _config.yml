@@ -1,5 +1,5 @@
 
-title: Music Resume | Tsung Wu
+title: Resume | Tsung Wu
 url: 'http://webjeda.com'
 baseurl: '/online-cv' #change it according to your repository name
 description: "Tsung-Ting, Wu's online CV'"
@@ -19,7 +19,7 @@ ga_domain: 'tsungtwu.github.io'
 
 #Profile information
 name: Tsung-Ting Wu
-tagline:  Sound Engineer </br> Guitar Player </br> Full Stack Web Developer
+tagline:  Full Stack Web Developer </br> DevOps Engineer </br> Sound Engineer </br> Guitarist
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
@@ -32,4 +32,5 @@ github: tsungtwu
 facebook: jtrmn.wu
 youtube: jtrmnW
 soundcloud: jtrmn
+medium: '@tsung.wu'
 #Update all the sections by editing the files inside _includes folder.

@@ -1,38 +1,37 @@
 ---
 layout: default
 ---
-            <select onchange="onLanChange(this.options[this.options.selectedIndex].value)">
-                <option value="0" > 中文 Chinese </option>
-                 <option value="1" selected> 英语 English </option>
-            </select> 
+            <select class="form-control i18n-dropdown"   onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+                
+                <option value="1" selected> 英语 English </option>
+                <option value="0"> 中文 Chinese </option>
+            </select>
             <p></p>
 
             <div class="zh">
 
                 {% include experience-cht.html %}
 
-                {% include music_training-cht.html %}    
-                
-                {% include csie_training-cht.html %}    
-
-                {% include projects-cht.html %}
-                            
                 {% include skills.html %}
 
+                {% include csie_training-cht.html %}    
+
+                {% include music_training-cht.html %}    
+                
+                            
             </div>
 
             <div class="en">
 
                 {% include experience.html %}
 
-                {% include music_training.html %}    
-                
+                {% include skills.html %}
+
                 {% include csie_training.html %}    
 
-
-                {% include projects.html %}
+                {% include music_training.html %}    
+                
                             
-                {% include skills.html %}
             </div>
 
 <script type="text/javascript">
