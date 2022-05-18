@@ -1,63 +1,63 @@
 ---
 layout: default
 ---
-            <select onchange="onLanChange(this.options[this.options.selectedIndex].value)">
-                <option value="0" > 中文 Chinese </option>
-                 <option value="1" selected> 英语 English </option>
-            </select> 
+            <select class="form-control i18n-dropdown"   onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+                
+                <option value="1" selected> 英语 English </option>
+                <option value="0"> 中文 Chinese </option>
+            </select>
             <p></p>
 
             <div class="zh">
 
                 {% include experience-cht.html %}
 
-                {% include music_training.html %}    
-                
-                {% include projects-cht.html %}
-                            
                 {% include skills.html %}
 
+                {% include csie_training-cht.html %}    
+
+                {% include music_training-cht.html %}    
+                
+                            
             </div>
 
             <div class="en">
 
                 {% include experience.html %}
 
+                {% include skills.html %}
+
+                {% include csie_training.html %}    
+
                 {% include music_training.html %}    
                 
-                {% include projects.html %}
                             
-                {% include skills.html %}
             </div>
 
 <script type="text/javascript">
-    var $zh = document.querySelectorAll(".zh");
-    var $en = document.querySelectorAll(".en");
-    var $name = document.querySelector(".name");
+    
     function onLanChange(index){
         if(index == 0){
-            $zh.forEach(function(element) {
-                element.style.display= "block";
-            }, this);
-            // $zh.style.display = "block";
-
-            $en.forEach(function(element) {
-                element.style.display= "none";
-            }, this);
+            $('.en').hide()
+            $('.zh').show()
             // $en.style.display = "none";
-            $name.innerText = "吳宗庭 \n Tsung Wu"
+            $('.name').text("吳宗庭 \n Tsung Wu")
+            
         }else{
-            $en.forEach(function(element) {
+            $('.zh').hide()
+            $('.en').show()
+            /*$en.forEach(function(element) {
                 element.style.display= "block";
             }, this);
 
             $zh.forEach(function(element) {
                 element.style.display= "none";
-            }, this);
+            }, this);*/
 
             // $en.style.display = "block";
             // $zh.style.display = "none";
-            $name.innerText = "Tsung-Ting, Wu"
+            $('.name').text("Tsung-Ting, Wu")
+
         }
     }
     onLanChange(1);
